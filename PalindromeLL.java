@@ -82,6 +82,7 @@ public class PalindromeLL {
             prev = prev.next;
             curr = next;
         }
+        mid.next = null;
         Node temp1 = tail;
         Node temp2 = head;
         while(temp1!=mid){
